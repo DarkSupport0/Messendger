@@ -11,7 +11,7 @@ public static class MessengerDataInstaller
     {
         services.AddDbContextPool<MessengerDbContext>(options => 
             options
-                .UseNpgsql(connectionString, builder => builder.MigrationsAssembly("Messendger.PostgreSQL"))
+                .UseNpgsql(connectionString, builder => builder.MigrationsAssembly("Messenger.PostgreSQL"))
         );
 
         return services;

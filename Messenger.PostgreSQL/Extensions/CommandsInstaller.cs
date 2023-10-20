@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Messenger.PostgreSQL.Commands.Chat.Create;
+using Microsoft.Extensions.DependencyInjection;
+using Messenger.PostgreSQL.Commands.User.Create;
 
-namespace Messenger.PostgreSQL.Extensions
+namespace WishList.PostgreSQL.Extensions;
+
+public static class CommandsInstaller
 {
-    internal class CommandsInstaller
+    public static IServiceCollection AddUserCommands(this IServiceCollection services)
     {
+        services
+            .AddScoped<ICreateUserCommand, CreateUserCommand>();
+
+        return services;
+    }
+
+    public static IServiceCollection AddHolidayCommands(this IServiceCollection services)
+    {
+        services.AddScoped<ICreateChatCommand, CreateChatCommand>();
+        return services;
+    }
+
+    public static IServiceCollection AddPresentCommands(this IServiceCollection services)
+    {
+        return services;
     }
 }

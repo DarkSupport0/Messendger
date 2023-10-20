@@ -16,6 +16,7 @@ namespace Messenger.PostgreSQL.Data.Entities
         public string Speakerfirstname;
         public string Speakerlastname;
         public bool IsFriend;
+        public DateTime CreateChat = DateTime.Now;
 
     }
 }

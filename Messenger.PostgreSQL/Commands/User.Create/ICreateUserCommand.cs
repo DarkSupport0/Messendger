@@ -2,7 +2,7 @@
 
 namespace Messenger.PostgreSQL.Commands.User.Create;
 
-public interface ICreateUserCommand : INoResponseAsyncCommand<CreateUserDto>
+public interface ICreateUserCommand
 {
-    
+    Task Execute(CreateUserDto dto);
 }

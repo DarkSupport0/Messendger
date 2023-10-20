@@ -1,6 +1,11 @@
-﻿namespace Messenger.PostgreSQL.Commands.User.Create;
+﻿using Messenger.PostgreSQL.Commands.Chat.Create;
 
-public class CreateUserCommand
+namespace Messenger.PostgreSQL.Commands.User.Create;
+
+public class CreateUserCommand : ICreateUserCommand
 {
-    
+    public Task Execute(CreateUserDto dto)
+    {
+        throw new NotImplementedException();
+    }
 }
