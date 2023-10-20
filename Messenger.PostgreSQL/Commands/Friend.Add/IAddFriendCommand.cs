@@ -1,6 +1,9 @@
-﻿namespace Messenger.PostgreSQL.Commands.Friend.Add;
+﻿using Messenger.PostgreSQL.Commands.Core;
+using Messenger.PostgreSQL.Commands.User.Create;
 
-public interface IAddFriendCommand
+namespace Messenger.PostgreSQL.Commands.Friend.Add;
+
+public interface IAddFriendCommand:INoResponseAsyncCommand<AddFriendDto>
 {
     
 }

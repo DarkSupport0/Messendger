@@ -5,8 +5,8 @@ using Messenger.RestModels.User;
 namespace Messenger.Controllers.User;
 
 [ApiController]
-[Route("users")]
-[ApiExplorerSettings(GroupName = "users")]
+[Route("Users")]
+[ApiExplorerSettings(GroupName = "Users")]
 public sealed class CreateUserController : ControllerBase
 {
     private readonly ICreateUserCommand _createUser;
@@ -16,7 +16,7 @@ public sealed class CreateUserController : ControllerBase
         _createUser = createUser;
     }
 
-    [HttpPost("create")]
+    [HttpPost("Create")]
     public async Task<IActionResult> Create([FromBody] CreateUserRequest request)
     {
         // validate user

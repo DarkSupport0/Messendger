@@ -1,6 +1,7 @@
 ﻿namespace Messenger.RestModels.BlackList;
 
-public class AddBlackListRequest
+public sealed record AddBlasckListRequest
 {
-    
+    public int UserID { get; init; }
+    public int BanID { get; init; }
 }

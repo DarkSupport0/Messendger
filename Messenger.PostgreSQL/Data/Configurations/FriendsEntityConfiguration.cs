@@ -10,8 +10,11 @@ public sealed partial class UserEntityConfiguration : IEntityTypeConfiguration<U
     public void Configure(EntityTypeBuilder<FriendsEntity> builder)
     {
         builder.HasKey(e => e.ID);
-        
+        builder.HasOne(c => c.User)
+            .WithMany(u => u.Friends)
+            .HasForeignKey(c => c.UserID);
+        builder.HasOne(c => c.Friend)
+            .WithMany(u => u.Friends)
+            .HasForeignKey(c => c.FriendID);
     }
-    protected Expression<Func<FriendsEntity, object>> Key =>
-        member => new {member.UserID, member.FriendID};
 }

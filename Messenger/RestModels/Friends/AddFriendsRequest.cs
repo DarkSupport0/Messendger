@@ -1,6 +1,7 @@
 ﻿namespace Messenger.RestModels.Friends;
 
-public class AddFriendsRequest
+public sealed record AddFriendsRequest
 {
-    
+    public int UserID { get; init; }
+    public int FriendID { get; init; }
 }

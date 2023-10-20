@@ -2,11 +2,12 @@
 
 public sealed record CreateUserRequest
 {
-    public string username { get; init; }
-    public string firstname { get; init; }
-    public string Llstname { get; init; }
-    public DateTime birthday { get; init; }
-    public string email { get; init; }
-    public string numphone { get; init; }
-    public string country { get; init; }
+    public string Username { get; init; }
+    public string Firstname { get; init; }
+    public string Lastname { get; init; }
+    public DateTime Birthday { get; init; }
+    public string Email { get; init; }
+    public string Numphone { get; init; }
+    public string Country { get; init; }
+    
 }

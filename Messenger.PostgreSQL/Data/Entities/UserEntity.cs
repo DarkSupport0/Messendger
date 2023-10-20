@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Messenger.PostgreSQL.Data.Entities;
 
-namespace Messenger.PostgreSQL.Data.Entities
+public sealed class UserEntity
 {
-    public class UserEntity
-    {
-        public int ID { get; set; }
-        public string username { get; set; }
-        public string firstname { get; set; }
-        public string lastname { get; set; }
-        public DateTime birthday { get; set; }
-        public string email { get; set; }
-        public string numphone { get; set; }
-        public string country { get; set; }
-    }
+    public int ID { get; set; }
+    public string Username { get; set; }
+    public string Firstname { get; set; }
+    public string Lastname { get; set; }
+    public DateTime Birthday { get; set; }
+    public string Email { get; set; }
+    public string Numphone { get; set; }
+    public string Country { get; set; }
+       
+    public List<BlackListEntity> BlackList { get; set; }
+    public List<FriendsEntity> Friends { get; set; }
+    public ChatEntity Speaker { get; set; }
+    public List<GroupEntity> Groups { get; set; }
 }
+

@@ -1,6 +1,7 @@
 ﻿namespace Messenger.RestModels.Chat;
 
-public class CreateChatRequest
+public sealed record CreateChatRequest
 {
-    
+    public int UserID { get; init; }
+    public int SpeakerID { get; init; }
 }

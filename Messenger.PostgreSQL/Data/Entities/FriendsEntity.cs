@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Messenger.PostgreSQL.Data.Entities;
 
-namespace Messenger.PostgreSQL.Data.Entities
+public sealed class FriendsEntity
 {
-    public class FriendsEntity
-    {
-        public int ID;
-        public int UserID;
-        public string username;
-        public int FriendID;
-        public string friendusername;
-        public string friendfirstname;
-        public string friendlastname;
-    }
+    public int ID { get; set; }
+    public int UserID { get; set; }
+    public int FriendID { get; set; } 
+    
+    public UserEntity User { get; set; }
+    public UserEntity Friend { get; set; }
 }
+

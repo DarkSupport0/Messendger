@@ -1,6 +1,8 @@
-﻿namespace Messenger.PostgreSQL.Commands.Chat.Create;
+﻿using Messenger.PostgreSQL.Commands.Core;
 
-public interface ICreateChatCommand
+namespace Messenger.PostgreSQL.Commands.Chat.Create;
+
+public interface ICreateChatCommand:INoResponseAsyncCommand<CreateChatDto>
 {
     
 }

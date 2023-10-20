@@ -1,6 +1,8 @@
-﻿namespace Messenger.PostgreSQL.Commands.BlackList.Add;
+﻿using Messenger.PostgreSQL.Commands.Core;
 
-public interface IAddBlackListCommand
+namespace Messenger.PostgreSQL.Commands.BlackList.Add;
+
+public interface IAddBlackListCommand:INoResponseAsyncCommand<AddBlackListDto>
 {
     
 }
