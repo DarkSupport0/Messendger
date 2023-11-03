@@ -1,0 +1,14 @@
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.deps.json
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.runtimeconfig.json
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.dll
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.pdb
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.csproj.AssemblyReference.cache
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.AssemblyInfoInputs.cache
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.AssemblyInfo.cs
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.csproj.CoreCompileInputs.cache
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.dll
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\refint\Messenger.SQL.dll
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.pdb
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.genruntimeconfig.cache
+D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\ref\Messenger.SQL.dll
