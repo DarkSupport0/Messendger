@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.User.BlockUser;
+﻿using Messenger.SQL.CQRS.Commands.User.BlockUser;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.BlackList

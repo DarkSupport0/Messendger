@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.User.AddToChat;
+﻿using Messenger.SQL.CQRS.Commands.User.AddToChat;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Chat

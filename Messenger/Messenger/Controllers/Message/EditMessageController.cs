@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.Message.Edit;
+﻿using Messenger.SQL.CQRS.Commands.Message.Edit;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Message

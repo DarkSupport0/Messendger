@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.User.AddFriend;
+﻿using Messenger.SQL.CQRS.Commands.User.AddFriend;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Friend

@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.User.Create;
+﻿using Messenger.SQL.CQRS.Commands.User.Create;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.User

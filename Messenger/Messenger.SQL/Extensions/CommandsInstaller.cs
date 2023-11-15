@@ -1,10 +1,10 @@
-﻿using Messenger.SQL.Commands.Chat.Create;
-using Messenger.SQL.Commands.Message.Edit;
-using Messenger.SQL.Commands.Message.Send;
-using Messenger.SQL.Commands.User.AddFriend;
-using Messenger.SQL.Commands.User.AddToChat;
-using Messenger.SQL.Commands.User.BlockUser;
-using Messenger.SQL.Commands.User.Create;
+﻿using Messenger.SQL.CQRS.Commands.Chat.Create;
+using Messenger.SQL.CQRS.Commands.Message.Edit;
+using Messenger.SQL.CQRS.Commands.Message.Send;
+using Messenger.SQL.CQRS.Commands.User.AddFriend;
+using Messenger.SQL.CQRS.Commands.User.AddToChat;
+using Messenger.SQL.CQRS.Commands.User.BlockUser;
+using Messenger.SQL.CQRS.Commands.User.Create;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Messenger.SQL.Extensions
