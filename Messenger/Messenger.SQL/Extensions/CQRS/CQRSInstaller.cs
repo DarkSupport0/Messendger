@@ -1,15 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Messenger.SQL.Extensions.CQRS
 {
     public static class CQRSInstaller
     {
-        public static IServiceCollection AddSQRS(this IServiceCollection services)
+        public static IServiceCollection AddCQRS(this IServiceCollection services)
         {
             services
                 .AddBanCommands()
@@ -17,7 +12,8 @@ namespace Messenger.SQL.Extensions.CQRS
                 .AddFriendsCommands()
                 .AddMessageCommands()
                 .AddUserChatCommands()
-                .AddUserCommands();
+                .AddUserCommands()
+                .AddUserQueries();
 
             return services;
         }

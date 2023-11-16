@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.CQRS.Commands.User.AddToChat;
+﻿using Messenger.SQL.CQRS.User.AddToChat;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Chat
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.Chat
     [ApiExplorerSettings(GroupName = "chats")]
     public sealed class AddToChatController : ControllerBase
     {
-        private readonly IAddToChatCommand _command;
+        private readonly IAddToChatCommandHandler _command;
 
-        public AddToChatController(IAddToChatCommand command)
+        public AddToChatController(IAddToChatCommandHandler command)
         {
             _command = command;
         }
 
-        [HttpPost("addUserToChat")]
-        public async Task<IActionResult> Create([FromBody] AddToChatDto dto)
+        [HttpPost("add")]
+        public async Task<IActionResult> Create([FromBody] AddToChatCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

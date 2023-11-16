@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.CQRS.Commands.User.AddFriend;
+﻿using Messenger.SQL.CQRS.User.AddFriend;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Friend
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.Friend
     [ApiExplorerSettings(GroupName = "friends")]
     public sealed class AddFriendController : ControllerBase
     {
-        private readonly IAddFriendsCommand _command;
+        private readonly IAddFriendsCommandHandler _command;
 
-        public AddFriendController(IAddFriendsCommand command)
+        public AddFriendController(IAddFriendsCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("add")]
-        public async Task<IActionResult> Create([FromBody] AddFriendsDto dto)
+        public async Task<IActionResult> Create([FromBody] AddFriendsCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

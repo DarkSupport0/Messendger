@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.CQRS.Commands.User.Create;
+﻿using Messenger.SQL.CQRS.User.Create;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.User
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.User
     [ApiExplorerSettings(GroupName = "users")]
     public class CreateUserController : ControllerBase
     {
-        private readonly ICreateUserCommand _command;
+        private readonly ICreateUserCommandHandler _command;
 
-        public CreateUserController(ICreateUserCommand command)
+        public CreateUserController(ICreateUserCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromBody] CreateUserDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateUserCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

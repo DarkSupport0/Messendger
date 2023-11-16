@@ -1,12 +1,6 @@
-﻿using Messenger.SQL.CQRS.Core.Commands;
-using Messenger.SQL.CQRS.Core.Queries;
-using Messenger.SQL.CQRS.User.Create;
+﻿using Messenger.SQL.CQRS.User.Create;
+using Messenger.SQL.CQRS.User.Query.FindUser;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Messenger.SQL.Extensions.CQRS
 {
@@ -16,6 +10,13 @@ namespace Messenger.SQL.Extensions.CQRS
         {
             services
             .AddScoped<ICreateUserCommandHandler, CreateUserCommandHandler>();
+
+            return services;
+        }
+        public static IServiceCollection AddUserQueries(this IServiceCollection services)
+        {
+            services
+            .AddScoped<IFindUserQueryHandler, FindUserQueryHandler>();
 
             return services;
         }

@@ -1,12 +1,5 @@
-﻿using Messenger.SQL.CQRS.Core.Commands;
-using Messenger.SQL.CQRS.User.AddFriend;
-using Messenger.SQL.CQRS.User.Create;
+﻿using Messenger.SQL.CQRS.User.AddFriend;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Messenger.SQL.Extensions.CQRS
 {
