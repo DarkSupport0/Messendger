@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.Message.Send;
+﻿using Messenger.SQL.CQRS.Message.Send;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Message
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.Message
     [ApiExplorerSettings(GroupName = "massages")]
     public sealed class SendMessageController : ControllerBase
     {
-        private readonly ISendMessageCommand _command;
+        private readonly ISendMessageCommandHandler _command;
 
-        public SendMessageController(ISendMessageCommand command)
+        public SendMessageController(ISendMessageCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("send")]
-        public async Task<IActionResult> Create([FromBody] SendMessageDto dto)
+        public async Task<IActionResult> Create([FromBody] SendMessageCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

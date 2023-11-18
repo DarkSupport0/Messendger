@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.Message.Edit;
+﻿using Messenger.SQL.CQRS.Message.Edit;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Message
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.Message
     [ApiExplorerSettings(GroupName = "massages")]
     public sealed class EditMessageController : ControllerBase
     {
-        private readonly IEditMessageCommand _command;
+        private readonly IEditMessageCommandHandler _command;
 
-        public EditMessageController(IEditMessageCommand command)
+        public EditMessageController(IEditMessageCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("edit")]
-        public async Task<IActionResult> Create([FromBody] EditMessageDto dto)
+        public async Task<IActionResult> Create([FromBody] EditMessageCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

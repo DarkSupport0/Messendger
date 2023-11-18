@@ -1,4 +1,5 @@
 using Messenger.SQL.Extensions;
+using Messenger.SQL.Extensions.CQRS;
 using Microsoft.AspNetCore.Mvc.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,9 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder
     .Services
     .AddMessengerData("Server=(localdb)\\mssqllocaldb; Database=Messenger; Trusted_connection=True;")
-    .AddUserCommands()
-    .AddChatCommands()
-    .AddMessageCommands();
+    .AddCQRS();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

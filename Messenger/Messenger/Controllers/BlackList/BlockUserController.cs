@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.User.BlockUser;
+﻿using Messenger.SQL.CQRS.User.BlockUser;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.BlackList
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.BlackList
     [ApiExplorerSettings(GroupName = "blacklist")]
     public sealed class BlockUserController : ControllerBase
     {
-        private readonly IBlockUserCommand _command;
+        private readonly IBlockUserCommandHandler _command;
 
-        public BlockUserController(IBlockUserCommand command)
+        public BlockUserController(IBlockUserCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("block")]
-        public async Task<IActionResult> Create([FromBody] BlockUserDto dto)
+        public async Task<IActionResult> Create([FromBody] BlockUserCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }

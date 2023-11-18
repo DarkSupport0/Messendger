@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Commands.Chat.Create;
+﻿using Messenger.SQL.CQRS.Chat.Create;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Chat
@@ -8,17 +8,17 @@ namespace Messenger.Controllers.Chat
     [ApiExplorerSettings(GroupName = "chats")]
     public class CreateChatController : ControllerBase
     {
-        private readonly ICreateChatCommand _command;
+        private readonly ICreateChatCommandHandler _command;
 
-        public CreateChatController(ICreateChatCommand command)
+        public CreateChatController(ICreateChatCommandHandler command)
         {
             _command = command;
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromBody] CreateChatDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateChatCommand command)
         {
-            await _command.Execute(dto);
+            await _command.Handle(command);
             return Ok();
         }
     }
