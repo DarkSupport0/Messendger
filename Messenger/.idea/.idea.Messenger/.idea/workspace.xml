@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fd76d-09ef-479d-a251-e4816eb36084" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/CQRS/Message/Command.Send/SendMessageCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/CQRS/Message/Command.Send/SendMessageCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/Data/Configurations/ChatEntityConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/Data/Configurations/ChatEntityConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/Debug/net6.0/Messenger.SQL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/Debug/net6.0/Messenger.SQL.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "LabWork3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;LabWork3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\afiga\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\afiga\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\afiga\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\afiga\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\afiga\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\afiga\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Messenger">
     <configuration name="Messenger" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Messenger/Messenger.csproj" />
@@ -115,6 +110,7 @@
       <workItem from="1699688823432" duration="179000" />
       <workItem from="1700077463566" duration="82000" />
       <workItem from="1700164890243" duration="157000" />
+      <workItem from="1700497390440" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="Completed first lab work">
       <option name="closed" value="true" />
@@ -132,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700165037517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed problems and update migrations">
+      <option name="closed" value="true" />
+      <created>1700497455530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700497455530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +154,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="LabWorkNoName" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -167,6 +171,7 @@
     <MESSAGE value="Misc: Update Entitys, Configuration, API-files" />
     <MESSAGE value="Completed first lab work" />
     <MESSAGE value="Delete Unit of Work, Add Query, completed second lab work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Unit of Work, Add Query, completed second lab work" />
+    <MESSAGE value="Fixed problems and update migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed problems and update migrations" />
   </component>
 </project>
