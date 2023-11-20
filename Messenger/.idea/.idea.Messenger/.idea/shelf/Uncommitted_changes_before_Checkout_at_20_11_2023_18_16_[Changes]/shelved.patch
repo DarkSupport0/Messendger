@@ -1,0 +1,65 @@
+Index: Messenger.SQL/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17001649067368613
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Messenger.SQL/obj/rider.project.model.nuget.info b/Messenger.SQL/obj/rider.project.model.nuget.info
+--- a/Messenger.SQL/obj/rider.project.model.nuget.info	(revision 441ea373b9a20dc01b6b18530b47dc7a521073c0)
++++ b/Messenger.SQL/obj/rider.project.model.nuget.info	(date 1700496913921)
+@@ -1,1 +1,1 @@
+-17001649067368613
+\ No newline at end of file
++17004969038558753
+\ No newline at end of file
+Index: Messenger/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17001649067378569
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Messenger/obj/rider.project.model.nuget.info b/Messenger/obj/rider.project.model.nuget.info
+--- a/Messenger/obj/rider.project.model.nuget.info	(revision 441ea373b9a20dc01b6b18530b47dc7a521073c0)
++++ b/Messenger/obj/rider.project.model.nuget.info	(date 1700496913921)
+@@ -1,1 +1,1 @@
+-17001649067378569
+\ No newline at end of file
++17004969038748803
+\ No newline at end of file
+Index: Messenger.SQL/Dtos/ChatInfoDto.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Messenger.SQL/Dtos/ChatInfoDto.cs b/Messenger.SQL/Dtos/ChatInfoDto.cs
+new file mode 100644
+--- /dev/null	(date 1700430448938)
++++ b/Messenger.SQL/Dtos/ChatInfoDto.cs	(date 1700430448938)
+@@ -0,0 +1,25 @@
++using Messenger.SQL.Data.Entities;
++using System;
++using System.Collections.Generic;
++using System.Linq;
++using System.Text;
++using System.Threading.Tasks;
++
++namespace Messenger.SQL.Dtos
++{
++    public sealed record ChatInfoDto
++    {
++        public string Name { get; }
++        public string Type { get; }
++
++        public ICollection<MessageEntity> MessageEntities { get; }
++        public ICollection<UserChatEntity> UserChatEntities { get; }
++        public ChatInfoDto(string name, string type, ICollection<MessageEntity> messages, ICollection<UserChatEntity> userchats) 
++        {
++            Name = name;
++            Type = type;
++            MessageEntities = messages;
++            UserChatEntities = userchats;
++        }
++    }
++}

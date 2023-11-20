@@ -14,7 +14,7 @@ namespace Messenger.SQL.CQRS.Message.Send
 
         public async Task Handle(SendMessageCommand command)
         {
-            MessageEntity entity = new(command.Message, command.UserId, command.UserId);
+            MessageEntity entity = new(command.Message, command.UserId, command.ChatId);
 
             _context.Messages.Add(entity);
 

@@ -127,8 +127,8 @@ namespace Messenger.SQL.Migrations
                 {
                     table.PrimaryKey("PK_UserChat", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_UserChat_Chats_ChatId",
-                        column: x => x.ChatId,
+                        name: "FK_UserChat_Chats_UserId",
+                        column: x => x.UserId,
                         principalTable: "Chats",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -159,11 +159,6 @@ namespace Messenger.SQL.Migrations
                 name: "IX_Messages_SenderId",
                 table: "Messages",
                 column: "SenderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UserChat_ChatId",
-                table: "UserChat",
-                column: "ChatId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserChat_UserId",

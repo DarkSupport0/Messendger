@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fd76d-09ef-479d-a251-e4816eb36084" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/Messenger.SQL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/Messenger.SQL.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger/obj/Messenger.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/Messenger.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messenger/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger.SQL/CQRS/Message/Command.Send/SendMessageCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/CQRS/Message/Command.Send/SendMessageCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger.SQL/Data/Configurations/ChatEntityConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/Data/Configurations/ChatEntityConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/Debug/net6.0/Messenger.SQL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/Debug/net6.0/Messenger.SQL.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.SQL/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Messenger/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "LabWork2",
+    "git-widget-placeholder": "LabWork3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
