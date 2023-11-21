@@ -1,6 +1,6 @@
 ﻿namespace Messenger.SQL.Dtos
 {
-    public sealed record FindUserDto
+    public sealed record FindUserDto : IData
     {
         public string Username { get; }
         public string Firstname { get; }

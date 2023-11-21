@@ -8,27 +8,24 @@ using System.Threading.Tasks;
 
 namespace Messenger.SQL.FactoryMethod.Parts
 {
-    public sealed class UsersChat
+    public sealed class UsersChat : IFileParts
     {
         private readonly ChatInfoDto Chat;
         private readonly List<UserDto> Users;
         public UsersChat(ChatInfoDto chat)
         {
             Chat = chat;
-            for (int i = 0; i < Chat.UserChatEntities.Count; i++)
-            {
-                Users[i] = Chat.UserChatEntities[i].User;
-            }
         }
-        public override string ToString()
+        public string ConvertToString()
         {
             string part = "";
             part += "Користувачi:\n";
-            part += "Iм'я|Прiзвище (нікнейм)\n";
-            for (int i = 0;i < Users.Count;i++)
+            part += "Iм'я|Прiзвище (нікнейм)\n\n";
+            foreach (var user in Chat.UserChatEntities)
             {
-                part += $"{Users[i].Firstname} {Users[i].Lastname} ({Users[i].Username})\n";
+                part += $"{user.User.Firstname} {user.User.Lastname} ({user.User.Username})\n";
             }
+            part += "---------------------------\n\n";
             return part;
         }
     }

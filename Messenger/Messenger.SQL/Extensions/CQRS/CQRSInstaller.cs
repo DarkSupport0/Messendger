@@ -13,7 +13,8 @@ namespace Messenger.SQL.Extensions.CQRS
                 .AddMessageCommands()
                 .AddUserChatCommands()
                 .AddUserCommands()
-                .AddUserQueries();
+                .AddUserQueries()
+                .AddChatInfoCommands();
 
             return services;
         }

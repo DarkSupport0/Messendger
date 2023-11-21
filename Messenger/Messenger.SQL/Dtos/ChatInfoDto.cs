@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Messenger.SQL.Dtos
 {
-    public sealed record ChatInfoDto
+    public sealed record ChatInfoDto : IData
     {
         public string Name { get; }
         public string Type { get; }

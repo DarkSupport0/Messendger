@@ -7,18 +7,19 @@ using System.Threading.Tasks;
 
 namespace Messenger.SQL.FactoryMethod.Parts
 {
-    public sealed class InfoChat
+    public sealed class InfoChat : IFileParts
     {
         private readonly ChatInfoDto Chat;
         public InfoChat(ChatInfoDto chat)
         {
             Chat = chat;
         }
-        public override string ToString() 
+        public string ConvertToString() 
         {
             string part = "";
             part += $"Назва чату: {Chat.Name}\n";
             part += $"Тип чату: {Chat.Type}\n";
+            part += "---------------------------\n\n";
             return part;
         }
     }

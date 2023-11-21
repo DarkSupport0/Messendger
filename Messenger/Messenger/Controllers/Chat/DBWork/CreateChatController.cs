@@ -1,7 +1,7 @@
 ﻿using Messenger.SQL.CQRS.Chat.Create;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Messenger.Controllers.Chat
+namespace Messenger.Controllers.Chat.DBWork
 {
     [ApiController]
     [Route("chats")]

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Messenger.SQL.Migrations
 {
     [DbContext(typeof(MessengerDbContext))]
-    [Migration("20231120162246_initial")]
+    [Migration("20231121182443_initial")]
     partial class initial
     {
         /// <inheritdoc />

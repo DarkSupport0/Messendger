@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fd76d-09ef-479d-a251-e4816eb36084" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_19__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +111,7 @@
       <workItem from="1700077463566" duration="82000" />
       <workItem from="1700164890243" duration="157000" />
       <workItem from="1700497390440" duration="101000" />
+      <workItem from="1700513276772" duration="205000" />
     </task>
     <task id="LOCAL-00001" summary="Completed first lab work">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700497455530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Dtos and parts of report">
+      <option name="closed" value="true" />
+      <created>1700513334247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700513334247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="Completed first lab work" />
     <MESSAGE value="Delete Unit of Work, Add Query, completed second lab work" />
     <MESSAGE value="Fixed problems and update migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed problems and update migrations" />
+    <MESSAGE value="Add Dtos and parts of report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dtos and parts of report" />
   </component>
 </project>
