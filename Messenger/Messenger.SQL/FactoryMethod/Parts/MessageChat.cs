@@ -1,5 +1,6 @@
 ﻿using Messenger.SQL.Data.Entities;
-using Messenger.SQL.Dtos;
+using Messenger.SQL.Dtos.Chat;
+using Messenger.SQL.Dtos.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;

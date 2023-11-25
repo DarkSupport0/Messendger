@@ -1,13 +1,16 @@
 ﻿using Messenger.SQL.CQRS.User.Query.FindUser;
 using Messenger.SQL.Data.Entities;
 using Messenger.SQL.Data;
-using Messenger.SQL.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Messenger.SQL.Dtos.Chat;
+using Messenger.SQL.Dtos.Message;
+using Messenger.SQL.Dtos.UserChat;
+using Messenger.SQL.Dtos.User;
 
 namespace Messenger.SQL.CQRS.Chat.Query.ChatInfo
 {

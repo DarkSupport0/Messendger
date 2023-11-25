@@ -1,4 +1,5 @@
 ﻿using Messenger.SQL.Dtos;
+using Messenger.SQL.Dtos.Chat;
 using Messenger.SQL.FactoryMethod.Parts;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 ﻿using Messenger.SQL.Data;
 using Messenger.SQL.Data.Entities;
-using Messenger.SQL.Dtos;
+using Messenger.SQL.Dtos.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace Messenger.SQL.CQRS.User.Query.FindUser
