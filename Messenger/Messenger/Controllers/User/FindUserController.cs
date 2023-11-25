@@ -1,5 +1,5 @@
 ﻿using Messenger.SQL.CQRS.User.Query.FindUser;
-using Messenger.SQL.Dtos;
+using Messenger.SQL.Dtos.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.User

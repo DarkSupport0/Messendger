@@ -1,4 +1,4 @@
-﻿using Messenger.SQL.Dtos;
+﻿using Messenger.SQL.Dtos.Chat;
 using System;
 using System.Collections.Generic;
 using System.Linq;

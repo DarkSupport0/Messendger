@@ -1,5 +1,5 @@
 ﻿using Messenger.SQL.CQRS.Chat.Query.ChatInfo;
-using Messenger.SQL.Dtos;
+using Messenger.SQL.Dtos.Chat;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.Controllers.Chat.ReportWork
