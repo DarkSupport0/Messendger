@@ -1,0 +1,34 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]" date="1700496912942" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 20.11.2023 18:15 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/Messenger/v17/.futdcache.v2" />
+    <option name="AFTER_PATH" value=".vs/Messenger/v17/.futdcache.v2" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/.futdcache.v2" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/ProjectEvaluation/messenger.projects.v7.bin" />
+    <option name="AFTER_PATH" value=".vs/ProjectEvaluation/messenger.projects.v7.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/messenger.projects.v7.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/ProjectEvaluation/messenger.metadata.v7.bin" />
+    <option name="AFTER_PATH" value=".vs/ProjectEvaluation/messenger.metadata.v7.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/messenger.metadata.v7.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/Messenger/DesignTimeBuild/.dtbcache.v2" />
+    <option name="AFTER_PATH" value=".vs/Messenger/DesignTimeBuild/.dtbcache.v2" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/.dtbcache.v2" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Messenger/obj/Debug/net6.0/Messenger.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/Messenger.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/Messenger/v17/.suo" />
+    <option name="AFTER_PATH" value=".vs/Messenger/v17/.suo" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Messenger/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_11_2023_18_15_[Changes]/.suo" />
+  </binary>
+</changelist>

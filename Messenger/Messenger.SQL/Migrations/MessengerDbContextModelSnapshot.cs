@@ -137,8 +137,6 @@ namespace Messenger.SQL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ChatId");
-
                     b.HasIndex("UserId");
 
                     b.ToTable("UserChat", (string)null);
@@ -229,7 +227,7 @@ namespace Messenger.SQL.Migrations
                 {
                     b.HasOne("Messenger.SQL.Data.Entities.ChatEntity", "Chat")
                         .WithMany("UserChatEntities")
-                        .HasForeignKey("ChatId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

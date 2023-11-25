@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Messenger.SQL.Migrations
 {
     [DbContext(typeof(MessengerDbContext))]
-    [Migration("20231116190444_initial")]
+    [Migration("20231121182443_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -140,8 +140,6 @@ namespace Messenger.SQL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ChatId");
-
                     b.HasIndex("UserId");
 
                     b.ToTable("UserChat", (string)null);
@@ -232,7 +230,7 @@ namespace Messenger.SQL.Migrations
                 {
                     b.HasOne("Messenger.SQL.Data.Entities.ChatEntity", "Chat")
                         .WithMany("UserChatEntities")
-                        .HasForeignKey("ChatId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -19,7 +19,7 @@ namespace Messenger.SQL.Data.Configurations
 
             builder.HasMany(x => x.UserChatEntities)
                 .WithOne(y => y.Chat)
-                .HasForeignKey(y => y.ChatId)
+                .HasForeignKey(y => y.UserId)
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Cascade);
         }

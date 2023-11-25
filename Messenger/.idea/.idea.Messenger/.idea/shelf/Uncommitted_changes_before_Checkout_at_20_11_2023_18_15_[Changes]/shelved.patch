@@ -1,0 +1,30 @@
+Index: Messenger.SQL/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16990352088349672
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Messenger.SQL/obj/rider.project.model.nuget.info b/Messenger.SQL/obj/rider.project.model.nuget.info
+--- a/Messenger.SQL/obj/rider.project.model.nuget.info	(revision a8eca5689148ce1d65421815c20f545db18ab40f)
++++ b/Messenger.SQL/obj/rider.project.model.nuget.info	(date 1700496875378)
+@@ -1,1 +1,1 @@
+-16990352088349672
+\ No newline at end of file
++17004968614813394
+\ No newline at end of file
+Index: Messenger/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16990446689039517
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Messenger/obj/rider.project.model.nuget.info b/Messenger/obj/rider.project.model.nuget.info
+--- a/Messenger/obj/rider.project.model.nuget.info	(revision a8eca5689148ce1d65421815c20f545db18ab40f)
++++ b/Messenger/obj/rider.project.model.nuget.info	(date 1700496875379)
+@@ -1,1 +1,1 @@
+-16990446689039517
+\ No newline at end of file
++17004968614984551
+\ No newline at end of file
