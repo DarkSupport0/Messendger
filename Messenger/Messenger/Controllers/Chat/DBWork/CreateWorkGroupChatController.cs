@@ -1,5 +1,4 @@
-﻿using Messenger.RestModels;
-using Messenger.SQL.Builder.Builders.Chat;
+﻿using Messenger.SQL.Builder.Builders.Chat;
 using Messenger.SQL.CQRS.Chat.Command.Create;
 using Messenger.SQL.CQRS.Chat.Create;
 using Microsoft.AspNetCore.Mvc;

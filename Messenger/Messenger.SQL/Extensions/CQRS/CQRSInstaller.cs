@@ -15,7 +15,9 @@ namespace Messenger.SQL.Extensions.CQRS
                 .AddUserCommands()
                 .AddUserQueries()
                 .AddChatInfoCommands()
-                .AddChatPartCommands();
+                .AddChatPartCommands()
+                .AddMediatorCommands()
+                .AddFindUserIdCommands();
 
             return services;
         }

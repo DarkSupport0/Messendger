@@ -12,3 +12,17 @@ D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\refin
 D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.pdb
 D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.genruntimeconfig.cache
 D:\My Files\Code\Learning Project\Messenger\Messenger.SQL\obj\Debug\net6.0\ref\Messenger.SQL.dll
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.deps.json
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.runtimeconfig.json
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.dll
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\bin\Debug\net6.0\Messenger.SQL.pdb
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.csproj.AssemblyReference.cache
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.AssemblyInfoInputs.cache
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.AssemblyInfo.cs
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.csproj.CoreCompileInputs.cache
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.dll
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\refint\Messenger.SQL.dll
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.pdb
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\Messenger.SQL.genruntimeconfig.cache
+C:\Users\afiga\OneDrive\Рабочий стол\Messenger Lab5\Messenger\Messenger.SQL\obj\Debug\net6.0\ref\Messenger.SQL.dll

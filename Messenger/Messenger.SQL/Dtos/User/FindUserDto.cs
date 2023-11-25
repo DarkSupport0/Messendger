@@ -2,6 +2,7 @@
 {
     public sealed record FindUserDto : IData
     {
+        public int Id { get; }
         public string Username { get; }
         public string Firstname { get; }
         public string Lastname { get; }
@@ -11,6 +12,17 @@
         public string Country { get; }
         public FindUserDto(string username, string firstname, string lastname, DateTime birthday, string email, string phone, string country)
         {
+            Username = username;
+            Firstname = firstname;
+            Lastname = lastname;
+            Birthday = birthday;
+            Email = email;
+            Phone = phone;
+            Country = country;
+        }
+        public FindUserDto(int id, string username, string firstname, string lastname, DateTime birthday, string email, string phone, string country)
+        {
+            Id = id;
             Username = username;
             Firstname = firstname;
             Lastname = lastname;

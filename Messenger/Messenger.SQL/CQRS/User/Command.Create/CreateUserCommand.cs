@@ -15,7 +15,6 @@ namespace Messenger.SQL.CQRS.User.Create
             Phone = phone;
             Country = country;
         }
-
         public string Username { get; }
         public string Firstname { get; }
         public string Lastname { get; }
